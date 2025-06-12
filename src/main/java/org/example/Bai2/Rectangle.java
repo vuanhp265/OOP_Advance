@@ -1,10 +1,5 @@
 package org.example.Bai2;
 
-interface IShape {
-    double area();
-    double perimeter();
-}
-
 class Rectangle implements IShape {
     double width, height;
 
@@ -19,21 +14,5 @@ class Rectangle implements IShape {
 
     public double perimeter() {
         return 2 * (width + height);
-    }
-}
-
-class Square implements IShape {
-    double side;
-
-    Square(double side) {
-        this.side = side;
-    }
-
-    public double area() {
-        return side * side;
-    }
-
-    public double perimeter() {
-        return 4 * side;
     }
 }

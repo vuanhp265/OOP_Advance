@@ -1,6 +1,6 @@
 package org.example.Bai3;
 
-interface IVehicle {
+public interface IVehicle {
     void run();
     void stop();
     void accelerate();

@@ -1,5 +1,5 @@
 package org.example.Bai3;
 
-interface IBicycle {
+public interface IBicycle {
     void cycle();
 }

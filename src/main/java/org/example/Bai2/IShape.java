@@ -1,6 +1,6 @@
 package org.example.Bai2;
 
-interface IShape {
+public interface IShape {
     double area();
     double perimeter();
 }

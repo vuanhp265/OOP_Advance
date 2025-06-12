@@ -1,5 +1,5 @@
 package org.example.Bai4;
 
-interface ISavingAccount {
+public interface ISavingAccount {
     void setSavingAmount(double amount);
 }

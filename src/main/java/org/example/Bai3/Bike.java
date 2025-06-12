@@ -1,6 +1,6 @@
 package org.example.Bai3;
 
-class Bike implements IVehicle, IBike {
+public class Bike implements IVehicle, IBike {
     public void run() {
         System.out.println("Bike is running.");
     }

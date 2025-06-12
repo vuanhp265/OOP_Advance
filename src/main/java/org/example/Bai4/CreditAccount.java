@@ -1,6 +1,6 @@
 package org.example.Bai4;
 
-class CreditAccount implements IBank, ICreditAccount {
+public class CreditAccount implements IBank, ICreditAccount {
     private double balance;
 
     public void creditAmount(double amount) {

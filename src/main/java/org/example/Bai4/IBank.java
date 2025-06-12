@@ -1,5 +1,5 @@
 package org.example.Bai4;
 
-interface IBank {
+public interface IBank {
     double getAmount();
 }

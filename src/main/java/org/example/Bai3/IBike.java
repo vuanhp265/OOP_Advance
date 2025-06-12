@@ -1,5 +1,5 @@
 package org.example.Bai3;
 
-interface IBike {
+public interface IBike {
     void startEngine();
 }

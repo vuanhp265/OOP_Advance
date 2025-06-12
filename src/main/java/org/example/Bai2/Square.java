@@ -1,6 +1,6 @@
 package org.example.Bai2;
 
-class Square implements IShape {
+public class Square implements IShape {
     double side;
 
     Square(double side) {

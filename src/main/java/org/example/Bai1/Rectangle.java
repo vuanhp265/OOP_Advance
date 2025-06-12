@@ -1,6 +1,6 @@
 package org.example.Bai1;
 
-class Rectangle extends Shape{
+public class Rectangle extends Shape{
     double width, height;
 
     Rectangle(double width, double height) {

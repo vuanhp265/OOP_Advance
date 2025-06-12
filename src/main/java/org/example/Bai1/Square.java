@@ -1,6 +1,6 @@
 package org.example.Bai1;
 
-class Square extends Shape{
+public class Square extends Shape{
     double side;
 
     Square(double side) {

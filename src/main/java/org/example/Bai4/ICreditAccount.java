@@ -1,5 +1,5 @@
 package org.example.Bai4;
 
-interface ICreditAccount {
+public interface ICreditAccount {
     void creditAmount(double amount);
 }
